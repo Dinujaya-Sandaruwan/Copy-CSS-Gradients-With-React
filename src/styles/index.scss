@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import 'scrollBar';
+
+body{
+    margin: 0;
+    background-color: #E7DFFC;
+    font-family: 'Roboto', sans-serif;
+    .App{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .warp{
+            width: 200px;
+            height: 250px;
+            background-color: #fff;
+            margin: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+
+            box-shadow: 10px 10px 30px rgba($color: #000000, $alpha: 0.3);
+
+            transition-duration: 0.5s;
+            .color{
+                width: 200px;
+                height: 200px;
+            }
+            p{
+                text-align: center;
+            }
+        }
+        .warp:hover{
+            transform: scale(1.05);
+            cursor: pointer;
+            box-shadow: 20px 20px 50px rgba($color: #000000, $alpha: 0.3);
+        }
+    }
+}

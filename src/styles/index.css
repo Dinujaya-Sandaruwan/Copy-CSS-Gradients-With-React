@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"); /* WebKit-based browsers */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #E7DFFC;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #C1C1C1;
+  border-radius: 5px;
+}
+
+/* Firefox */
+::-moz-scrollbar {
+  width: 10px;
+}
+
+::-moz-scrollbar-track {
+  background-color: #E7DFFC;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #C1C1C1;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+  background-color: #E7DFFC;
+  font-family: "Roboto", sans-serif;
+}
+body .App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .App .warp {
+  width: 200px;
+  height: 250px;
+  background-color: #fff;
+  margin: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  transition-duration: 0.5s;
+}
+body .App .warp .color {
+  width: 200px;
+  height: 200px;
+}
+body .App .warp p {
+  text-align: center;
+}
+body .App .warp:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3);
+}/*# sourceMappingURL=index.css.map */

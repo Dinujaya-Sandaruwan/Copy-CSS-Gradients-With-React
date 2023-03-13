@@ -1,0 +1,28 @@
+/* WebKit-based browsers */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #E7DFFC;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #C1C1C1;
+    border-radius: 5px;
+  }
+  
+  /* Firefox */
+  ::-moz-scrollbar {
+    width: 10px;
+  }
+  
+  ::-moz-scrollbar-track {
+    background-color: #E7DFFC;
+  }
+  
+  ::-moz-scrollbar-thumb {
+    background-color: #C1C1C1;
+    border-radius: 5px;
+  }
+  
