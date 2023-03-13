@@ -16,9 +16,9 @@ To run this project on your local machine, follow these steps:
 
 1. Clone the repository using git clone https://github.com/Dinujaya-Sandaruwan/Copy-CSS-Gradients-With-React.git
 2. Navigate to the project directory using cd Copy-CSS-Gradients-With-React
-3. Install the dependencies using npm install
-4. Start the development server using npm start
-5. Open your browser and navigate to http://localhost:3000
+3. Install the dependencies using **npm install**
+4. Start the development server using **npm start**
+5. Open your browser and navigate to **http://localhost:3000**
 
 Alternatively, you can simply open the index.html file located in the build folder in server environment.
 
