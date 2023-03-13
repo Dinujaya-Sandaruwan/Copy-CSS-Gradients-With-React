@@ -1,5 +1,7 @@
 # Copy-CSS-Gradients-With-React
 Copy-CSS-Gradients-With-React is a simple React application that allows users to copy CSS gradients to the clipboard. The application is designed to help developers learn how to use React and SCSS.
+![image](https://user-images.githubusercontent.com/88492493/224855661-190a35ab-c9a6-4510-887e-77f67bdbcb1c.png)
+
 
 ## Features
 + Copy CSS gradients to the clipboard
